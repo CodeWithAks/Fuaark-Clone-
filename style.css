@@ -1,0 +1,302 @@
+* {
+    margin:0;
+    border:border-box;
+    font-family:sans-serif;
+}
+
+.nav1 {
+    height:40px;
+    background-color: #FAF9F6;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.icons {
+    font-size:22px;
+    margin-left:70px;
+}
+
+a{
+    color:black;
+    font-family:inherit;
+    text-decoration: none;
+    margin-left:600px;
+}
+
+#eng {
+    width:120px;
+}
+
+.nav2 {
+    height:80px;
+    width:100vw;
+    background-color: #f5f5f5;
+    display:flex;
+    color:black;
+    align-items: center;
+    position: fixed;
+    opacity: 0.8;
+    
+}
+
+.logo {
+    background-image: url(logoimage.webp);
+    background-size:cover;
+    transform:scale(0.5);
+    height:80px;
+    width:350px;
+}
+
+.border {
+    border:1px solid transparent;
+}
+
+.categories span {
+    display:inline;
+    font-size:24px;
+    color:#003B5C;
+    font-family:'Times New Roman', Times, serif;
+    margin-left:30px;
+}
+.categories {
+    margin-left:290px;
+}
+
+.icons2 {
+    font-size:22px;
+    margin-left:400px;
+}
+
+.icons2 i {
+    margin-left:20px;
+}
+
+/* Hero Section */
+
+.main-section {
+    background-image:url(fuaark\ hero\ image.webp);
+    background-size:cover;
+    height:700px;
+}
+
+.box1 {
+    height:1000px;
+    background-color:#C5CFDA;
+
+}
+
+.f-logo {
+    background-image:url(WhatsApp\ Image\ 2024-10-23\ at\ 12.02.32\ PM.jpeg);
+    background-size:cover;
+    height:87px;
+    width:87px;
+    margin:auto;
+}
+
+.tagline {
+    margin-top:10px;
+    color:#003B5C;
+    font-size:20px;
+    font-family: sans-serif;
+    line-height:23px;
+    text-align:center;
+}
+
+.people {
+    display:flex;
+    margin-top:2rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.man {
+    height:500px;
+    width:400px;
+    background-size: cover;
+    margin-left:30px;
+}
+
+.video{
+    height:800px;
+    width:fit-content;
+    margin-top:70px;
+}
+
+.shopping{
+    height:1170px;
+}
+
+.shop-men{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.content {
+    text-align: left;
+    text-indent: 27px;
+    line-height:140%;
+    font-size: 30px;
+}
+
+.men-columns p {
+    font-weight:bold;
+    display: inline-block;
+    font-size: 17px;
+    margin-left:10px;
+}
+
+.men-columns {
+    margin-right: 15px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.images{
+    width:100%;
+    margin-top: 40px;
+}
+
+.male{
+    background-size:cover;
+    height:100px;
+    width:400px;
+}
+
+.males{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:30px;
+}
+
+.tshirt-content {
+    height:100px;
+    margin-top:620px;
+    font-size:15px;
+    text-align:left;
+}
+
+.tshirt-content p{
+    margin-top:10px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.image2{
+    height:300px;
+}
+
+.seamless-comp{
+  background-image: url(Fuaark_Seamless_compression_web.webp);
+  background-size:contain;
+  height:650px;
+  margin-bottom: 200px;
+  cursor:pointer;
+}
+
+.shopping2{
+    height:1000px;
+}
+
+.shop-women{
+    width:100%;
+    margin-top:400px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Wcontent {
+    text-align: left;
+    text-indent: 27px;
+    line-height:140%;
+    font-size: 30px;
+    color:#003B5C;
+    font-family: sans-serif;
+}
+
+.women-columns p {
+    font-weight:bold;
+    display: inline-block;
+    font-size: 17px;
+    margin-left:10px;
+    color:#003B5C;
+    font-family: sans-serif;
+}
+
+.women-columns {
+    margin-right: 15px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.images-W{
+    width:100%;
+    margin-top: 40px;
+}
+
+.female{
+    background-size:cover;
+    height:100px;
+    width:400px;
+}
+
+.females{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:30px;
+}
+
+.Wtshirt-content {
+    height:100px;
+    margin-top:620px;
+    font-size:15px;
+    text-align:left;
+    color:#003B5C;
+    font-family: sans-serif;
+}
+
+.Wtshirt-content p{
+    margin-top:10px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.msg-container{
+    margin-top:3900px;
+    height:500px;
+}
+
+.msg-content{
+    font-size: 20px;
+    color:#003B5C;
+    font-family: sans-serif;
+    width:1000px;
+    text-align: center;
+    margin-left:450px;
+}
+
+.foot-panel{
+    height:500px;
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+.f-footer{
+    background-image: url(logoimage.webp);
+    background-size:cover;
+    height:60px;
+    width:600px;
+}
+
+.footer-content{
+    height: max-content;
+    width:1000px;
+    font-size: 19px;
+    margin-top: 90px;
+    margin-left: -200px;
+}
+
